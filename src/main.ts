@@ -15,7 +15,7 @@ interface Reason {
   imports: [CommonModule, FormsModule],
   template: `
     <div class="app-container">
-      <h1 class="romantic-title">101 Razones Por Las Que Quiero Estar Contigo</h1>
+     <h1 class="romantic-title">101 Razones Por Las Que Quiero Estar Contigo</h1>
       
       <!-- Video Section
         <div class="video-container">
@@ -53,9 +53,11 @@ interface Reason {
           <p class="reason-text">{{ reason.id }}. {{ reason.text }}</p>
         </div>
       </div>
-      <p style="font-weight: bold;  text-align: center; padding-top:10px: padding-bottom:20px">Atte: Daniel Bombela</p>
+      
+      <p style="font-weight: bold; font-size:13px;  text-align: center; padding-top:10px: padding-bottom:20px">Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí</p>
+     
     </div>
-  
+    <p style="font-weight: bold;  text-align: center;  ">Atte: Daniel Bombela</p>
   `,
   styles: [`
     .app-container {
