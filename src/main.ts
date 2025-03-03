@@ -15,7 +15,7 @@ interface Reason {
   imports: [CommonModule, FormsModule],
   template: `
     <div class="app-container">
-     <h1 class="romantic-title ">Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí</h1>
+     <h1 class="romantic-title ">Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí.</h1>
       
       <!-- Video Section
         <div class="video-container">
@@ -56,7 +56,9 @@ interface Reason {
       
    
     </div>
-    <p style="font-weight: bold;  text-align: center;  ">Atte: Daniel Bombela</p>
+<!-- 
+        <p style="font-weight: bold;  text-align: center;  ">Atte: Daniel Bombela</p>
+-->
   `,
   styles: [`
     .app-container {
