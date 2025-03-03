@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { gsap } from 'gsap';
 
 interface Reason {
-  id: number;
+  id: number | string;
   text: string;
 }
 
@@ -15,7 +15,7 @@ interface Reason {
   imports: [CommonModule, FormsModule],
   template: `
     <div class="app-container">
-     <h1 class="romantic-title">101 Razones Por Las Que Quiero Estar Contigo</h1>
+     <h1 class="romantic-title ">Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí</h1>
       
       <!-- Video Section
         <div class="video-container">
@@ -48,14 +48,13 @@ interface Reason {
       -->
  
       <!-- Reasons List -->
-      <div class="reasons-grid">
+      <div class="d-flex justify-content-center align-items-center">
         <div *ngFor="let reason of reasons" class="reason-card" (mouseenter)="createHeart($event)">
           <p class="reason-text">{{ reason.id }}. {{ reason.text }}</p>
         </div>
       </div>
       
-      <p style="font-weight: bold; font-size:13px;  text-align: center; padding-top:10px: padding-bottom:20px">Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí</p>
-     
+   
     </div>
     <p style="font-weight: bold;  text-align: center;  ">Atte: Daniel Bombela</p>
   `,
@@ -124,7 +123,7 @@ interface Reason {
     .reason-text {
       font-size: 1.1rem;
       line-height: 1.5;
-      color: var(--text-color);
+      color: #000
     }
 
     @media (max-width: 768px) {
@@ -150,8 +149,11 @@ interface Reason {
 })
 export class App implements OnInit {
   reasons: Reason[] = [
-    { id: 1, text: "Quiero que Dios nos reconstruya estando juntos." },
-    { id: 2, text: "Porque Quiero que Dios nos bendiga juntos." },
+   
+  /**
+   *   
+   *  { id: "", text: "Hay como un millón de razones por las que no debemos estar juntos. un millón de no. Pero también existe un sí" },
+   * { id: 2, text: "Porque Quiero que Dios nos bendiga juntos." },
     { id: 3, text: "Quiero conocer cada pueblito mágico de tu mano." },
     { id: 4, text: "Quiero caminar contigo por la noche en San Miguel de Allende." },
     { id: 5, text: "Quiero que seas la primer persona a la que yo le lleve serenata." },
@@ -251,6 +253,7 @@ export class App implements OnInit {
     { "id": 99, "text": "Quiero quedarme contigo mucho tiempo y tener una relación con propósito y crecimiento." },
     { "id": 100, "text": "Porque la vida me regaló un instante a tu lado, pero mi corazón decidió que ese instante fuera eterno." },
     { "id": 101, "text": "Porque cuando te conocí, sentí que debía quedarme contigo siempre." },
+   */
    
   ];
   newReason: string = '';

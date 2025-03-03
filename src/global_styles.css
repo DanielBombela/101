@@ -25,9 +25,9 @@ body {
 }
 
 .romantic-title {
-  font-family: 'Dancing Script', cursive;
-  color: var(--primary-color);
-  font-size: clamp(2rem, 5vw, 3.5rem);
+
+  color: var(--text-color);
+  font-size: clamp(1rem, 5vw, 1.3rem);
   text-align: center;
   padding: 1rem;
   line-height: 1.2;
