@@ -49,8 +49,23 @@ interface Reason {
  
       <!-- Reasons List -->
       <div class="d-flex justify-content-center align-items-center">
-        <div *ngFor="let reason of reasons" class="reason-card" (mouseenter)="createHeart($event)">
-          <p class="reason-text">{{ reason.id }}. {{ reason.text }}</p>
+        <div  class="reason-card" (mouseenter)="createHeart($event)">
+          <p class="reason-text">Ha pasado un tiempo, no sé nada de tu vida ni tu de la mía, ni si quiera tengo la certeza de que leerás este mensaje, es algo que talvez nunca sepa, solo escribo para desahogarme y sacar un poco de mis pensamientos, aunque probablemente lo haga de vez en cuando...
+Debo admitir que fue un tiempo difícil, noches sin dormir, ansiedad e incertidumbre, de repente la vida me sorprendió en varios aspectos de mi vida que no veía venir, estuve tocando fondo sin embargo Dios me encontró me hizo volver a casa y gracias a él hoy me encuentro estable, con sus altas y bajas como todos pero sigo trabajando en mí, ejercicio, estudio, terapia, enfoque y además me mudé de casa, como quisiera contarte tantas cosas, que estuvieras aquí para vivirlas conmigo como un día lo prometimos pero bueno las cosas pasan por algo y te sorprendería bastante ver la persona en la que poco a poco me he ido transformando, sigo buscando la mejor versión de mi,  supongo que tu también has crecido y has echo muchas cosas, he pedido a Dios por tu vida, tu paz y tus anhelos.
+Te mentiría si te digo que no siento todavía cosas cuando ocasionalmente te veo en el banco, te echo de menos a ti a bingo, pero debo continuar en mi caminar, espero que te encuentres muy bien, que viajes a todos esos lugares que una vez me contaste, que encuentres felicidad a donde vayas, yo por mi parte quiero que sepas que aquí no hay rencor ni resentimiento por nada, al contrario, agradezco a Dios por haberte puesto en mi vida y compartir un ratito de nosotros cuando mas nos necesitábamos, fue un viaje inesperado pero bonito que sin duda alguna volvería a repetir, contigo aprendí y crecí, te reirías si te contara que no he probado una sola gota de alcohol desde aquella noche de enero, ha sido difícil y me ha costado pelear contra mi mente pero Dios no me ha dejado y el me da fuerzas para seguir adelante,  dentro de mi corazón quisiera que en un futuro nos reencontráramos y siguiéramos escribiendo nuestra historia pero he entendido que los planes de Dios son mejores solo confío en que nos va ir bien, estemos o no juntos.
+y si querías saberlo, sí, si fui yo quien envío las flores amarillas aquel 21 de marzo a tu casa como ultimo acto de amor, solo quise hacerte sentir especial y volver a sorprenderte una vez mas.
+No se que mas pueda decirte, porque si se tratara de contarte todo lo que ha pasado no acabaría de escribir jaja 
+solo espero que estés bien, que sepas que te guardo especialmente en mi corazón y que me recuerdes como algo bonito y especial que sucedió en tu vida, como esa estrella fugaz que apareció en tu vida,  así como yo lo hago contigo.
+
+
+
+</p>
+<p style="margin-top: 30px; font-weight: bold; ">Con cariño: Daniel Bombela</p>
+<p style="margin-top: 20px; font-weight: bold; text-align: center;">Calendario - Lasso
+  <br>
+<a target="_blank" style=" font-weight: bold; text-align: center;" href="https://www.youtube.com/watch?v=hY_wqNRaQ00&ab_channel=1994">https://www.youtube.com/watch?v=hY_wqNRaQ00&ab_channel=1994</a>
+</p>
+
         </div>
       </div>
       
